@@ -12,6 +12,7 @@
 
 <body>
   <div class="flex flex-row h-max-10">
+    <!-- Side Nav Starts here -->
     <aside class="z-10 hidden md:block ">
       <div class="flex bg-white flex-col items-center py-5 px-1 h-screen fixed">
         <a class="mb-6" href="#">
@@ -35,6 +36,56 @@
         </a>
       </div>
     </aside>
+    <!-- Side Nav Ends here -->
+
+    <!-- Header starts here -->
+    <header
+      class="fixed w-full bg-gray-50 top-0 overflow-hidden z-10 p-4 border-gray-300 border-b flex justify-between items-center">
+      
+      <div class="header-left flex text-gray-600  w-full">
+        <span class="material-icons">menu</span>
+        <img class="w-24 ml-6"
+          src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c"
+          alt="">
+      </div>
+
+      <div class="header-mid w-full flex items-center justify-end">
+        <div class="input hidden w-full sm:block sm:mx-1">
+          <div class="flex w-full">
+            <input
+              class="border-gray-300 border px-4 py-1 w-full focus:border focus:border-gray-700 focus:outline-none :focus:shadow-inner"
+              type="text" placeholder="Search">
+            <span
+              class="material-icons align-middle cursor-pointer		 text-gray-500 border-t border-r border-b bg-gray-100 font-thin px-5 py-1 border-gray-300 hover:text-gray-600 hover:shadow-inner">search</span>
+          </div>
+        </div>
+        <div class="mt-2">
+          <a class="mx-2" href="#">
+            <span class="material-icons">mic</span>
+          </a>
+          <a class="mx-2 sm:hidden" href="#">
+            <span class="material-icons">search</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="header-right text-gray-600 flex items-center justify-end w-full">
+        <a class="mx-2" href="#">
+          <span class="material-icons">videocam</span>
+        </a>
+        <a class="mx-2" href="#">
+          <span class="material-icons">apps</span>
+        </a>
+        <a class="mx-2" href="#">
+          <span class="material-icons">notifications</span>
+        </a>
+        <a class="mx-2" href="#">
+          <span class="material-icons">account_circle</span>
+        </a>
+      </div>
+      
+    </header>
+    <!-- Header ends here -->
   </div>
 </body>
 
