@@ -10,4 +10,4 @@ Or
 yarn
 ```
 ### Demo
-See it [here](https://thejawadali.github.io/youtube/)
+See it [here](https://thejawadali.github.io/youtube-ui/)
